@@ -1,0 +1,42 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/background.png);
+}
+
+.container_1{
+    display: flex;
+    width: 2000px;
+    gap: 30px;
+}
+
+.container_2{
+    width: 400px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.element{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center; 
+    background-color: rgb(72, 32, 218);
+}
+
+.element_block {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.element_small {
+    width: calc(50% - 10px);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 43, 43);
+}
